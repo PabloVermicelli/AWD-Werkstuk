@@ -1,4 +1,9 @@
+// Gebaseerd op de Foundation building blocks
+
 $headerTextColor: #FFF;
+$darkGrey: #333;
+$hoverColor: rgba(250, 250, 250, 0.7);
+
 @font-face {
     font-family: spaceComics;
     src: url("../fonts/SpaceComics.ttf");
@@ -14,6 +19,7 @@ h1 {
     background: url("../img/bg.png") no-repeat center center;
     background-size: cover;
     padding: 4rem;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.20);
     .main-header {
         color: $headerTextColor;
     }
@@ -29,7 +35,7 @@ h1 {
         float: none;
         display: inline-block;
         a {
-            padding: 0.9rem 1rem 0.75rem;
+            padding: 10px;
             font-size: 0.875rem;
             color: #fff;
             text-transform: uppercase;
@@ -37,88 +43,39 @@ h1 {
             font-weight: bold;
             letter-spacing: 1px;
             &.is-active {
-                background: rgba(250, 250, 250, 0.7);
-                color: #333;
+                background: $hoverColor;
+                color: $darkGrey;
             }
             &:hover {
-                background: rgba(250, 250, 250, 0.7);
-                color: #333;
+                background: $hoverColor;
+                color: $darkGrey;
                 transition: all .25s ease-in-out;
             }
         }
     }
 }
 
-.profile-card {
-    padding: 1rem;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    margin: 2rem 0;
+.eyeCatcher {
+    margin-top: 30px;
+    height: 200px;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.20);
+}
+
+.card {
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.20);
     background-color: #fff;
-    img {
-        width: 8rem;
-        display: block;
-        margin: 2rem auto;
+    h1{
+        font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
         text-align: center;
-        border-radius: 50%;
-        box-shadow: 2px 2px 5px #888888;
-    }
-    .profile-info {
-        padding: 1rem;
-        h4 {
-            margin-top: 0;
-            text-align: center;
-            text-transform: uppercase;
-        }
-        p {
-            text-align: center;
-        }
-        .inline-list {
-            text-align: center;
-            margin-bottom: 1rem;
-            li {
-                float: none;
-                display: inline-block;
-            }
-            i.fi-social-facebook {
-                font-size: 1.5rem;
-                color: #3b5998;
-                &:hover {
-                    transform: scale(1.5);
-                    transition: all .5s ease-in-out;
-                }
-            }
-            i.fi-social-twitter {
-                font-size: 1.5rem;
-                color: #55acee;
-                &:hover {
-                    transform: scale(1.5);
-                    transition: all .5s ease-in-out;
-                }
-            }
-            i.fi-social-linkedin {
-                font-size: 1.5rem;
-                color: #0077b5;
-                &:hover {
-                    transform: scale(1.5);
-                    transition: all .5s ease-in-out;
-                }
-            }
-            i.fi-social-github {
-                font-size: 1.5rem;
-                color: #333;
-                &:hover {
-                    transform: scale(1.5);
-                    transition: all .5s ease-in-out;
-                }
-            }
-            i.fi-social-youtube {
-                font-size: 1.5rem;
-                color: #cc181e;
-                &:hover {
-                    transform: scale(1.5);
-                    transition: all .5s ease-in-out;
-                }
-            }
-        }
     }
 }
