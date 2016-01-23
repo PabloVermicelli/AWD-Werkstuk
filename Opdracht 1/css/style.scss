@@ -99,3 +99,7 @@ h1 {
 .author p{
     margin-left: 20px;
 }
+
+.imgCard {
+    @extend .card;
+}
