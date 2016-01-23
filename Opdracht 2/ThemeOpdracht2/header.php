@@ -6,9 +6,9 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Escape Velocity</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/app.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>css/foundation.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>css/app.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>css/style.css" />
     <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
 </head>
 
