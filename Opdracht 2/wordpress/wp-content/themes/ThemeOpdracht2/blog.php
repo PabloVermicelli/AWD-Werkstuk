@@ -5,6 +5,7 @@
  get_header(); ?>
 
     <body>
+        <!-- Header Subnav: http://zurb.com/building-blocks/header-subnav -->
         <header class="header">
             <h1 class="main-header">ESCAPE VELOCITY</h1>
             <ul class="header-subnav">
@@ -34,7 +35,6 @@
                         <p>
                             <?php the_content(); ?>
                         </p>
-                        <!--<img src="../wp-content/uploads/2016/01/img-placeholder.png">-->
                     </div>
                 </div>
                 <?php endwhile; ?>

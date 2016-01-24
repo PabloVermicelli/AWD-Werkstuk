@@ -6,6 +6,7 @@
 
 
     <body>
+        <!-- Header Subnav: http://zurb.com/building-blocks/header-subnav -->
         <header class="header">
             <h1 class="main-header">ESCAPE VELOCITY</h1>
             <ul class="header-subnav">
@@ -26,14 +27,15 @@
         <div class="row">
             <div class="medium-8 columns">
                 <div class="card">
-                    <h1>Titel</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, </p>
+                    <h1>Een gloednieuwe game-ervaring</h1>
+                    <p>Escape Velocity is een gloednieuwe game voor Android en iOS. Deze Endless Runner stelt je in controle over een ruimteschip die zich een baan zoekt door het universum. Weet jij je veilig doorheen het sterrenstelsel te navigeren? Of bezwijk je aan de enorme aantrekkingskracht van een zwart gat? Heb je genoeg energie om te ontsnappen aan een vijandelijke raket? Of verlies je de controle en sla je in op een planeet?</p>
+                    <p>Het spel is verkrijgbaar vanaf de zomer van 2016.</p>
                 </div>
             </div>
             <div class="medium-4 columns">
                 <div class="card">
-                    <h1>Titel</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. </p>
+                    <h1>Escape Velocity</h1>
+                    <p>De game wordt gemaakt als Final Work door twee studenten van de Erasmushogeschool Brussel. Samen dienen we ons te verdiepen in het creeëren van een goede Mobile Game.</p>
                 </div>
             </div>
         </div>

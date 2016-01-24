@@ -112,3 +112,9 @@ h1 {
 .author p {
     margin-left: 20px;
 }
+
+.screenshot {
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+}
